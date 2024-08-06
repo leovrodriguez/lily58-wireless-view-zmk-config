@@ -13,7 +13,7 @@
         split: split {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_COMMAND &kp LEFT>;
+            bindings = <&kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_COMMAND>;
             label = "SPLIT";
         };
 
